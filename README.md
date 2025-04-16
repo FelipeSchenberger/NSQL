@@ -2,7 +2,7 @@
 
 ## Crear entorno virtual
 python3 -m venv nombre
-source nombre/bin/activate
+/n source nombre/bin/activate
 python manage.py createsuperuser
 
 ## Dentro del entorno virtual se debe instalar:
