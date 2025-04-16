@@ -1,17 +1,17 @@
 # Para correr la aplicacion se necesita 
 
 ## Crear entorno virtual
-python3 -m venv nombre
-/n source nombre/bin/activate
+python3 -m venv nombre 
+| source nombre/bin/activate | 
 python manage.py createsuperuser
 
 ## Dentro del entorno virtual se debe instalar:
 pip install django redis pillow
 
 ## Levantar los contenedores:
-docker-compose up --build
+docker-compose up --build |
 
-localhost:8000
+ localhost:8000
 
 Desde el panel de admin se ingresan los datos que se reconstruyen por django y la imagenes estan almacenadas en el proyecto.
 
