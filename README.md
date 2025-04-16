@@ -2,14 +2,16 @@
 
 ## Crear entorno virtual
 python3 -m venv nombre 
-| source nombre/bin/activate | 
+
+source nombre/bin/activate
+
 python manage.py createsuperuser
 
 ## Dentro del entorno virtual se debe instalar:
 pip install django redis pillow
 
 ## Levantar los contenedores:
-docker-compose up --build |
+docker-compose up --build
 
  localhost:8000
 
